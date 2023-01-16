@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+    <p>Taper le début du nom (ou le m complet) de la personne que vous recherchez :</p>
+    <table>
+    <form action="resultat.php" method="post">
+        <input type="hidden" name="action" value="0">
+        <tr>
+            <td>
+                <input type="text" name="nom" />
+            </td>
+            <td>
+                <p><input type="submit" value="OK"></p>
+            </td> 
+        </tr>
+    
+    </form>
+    </table>
+    <form action="personne.php" method='post'>
+        <input type="hidden" name="action" value="1">
+        <table>
+            <tr>
+                <td>
+                    <p>Créer un nouveau contact :</p>
+                </td>
+                <td>
+                    <p><input type="submit" value="ajouter"></p>
+                </td> 
+            </tr>
+        </table>
+    </form>        
+
+    
+</body>
+</html>
