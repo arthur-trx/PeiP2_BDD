@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table width="100%" border="10">
+        <thead>
+        <tr>
+            <th colspan="1">
+            <image src="poly.png" class="image" />
+            </th>
+            <th colspan="3">
+                <h2 class="bleu">Polytech Orléans - Université d'Orléans</h2>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> <image src="cpp.jpg" class="image" /></td>
+            <td> <image src="c.png" class="image" /></td>
+            <td> <image src="php.png" class="image" /></td>
+            <td> <image src="mysql.png" class="image" /></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="aligne"> <b>Programmation avancée  </b></td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <form method="post" action="save.php">
+        
+    <table>
+        <tr>
+            <td>Nom de l'éléve : </td>
+            <td><input type="text" name="nom" ></td>
+        </tr>
+        <tr>
+            <td>Prenom de l'éléve : </td>
+            <td><input type="text" name="prenom" ></td>
+        </tr>
+
+    </table>
+    <input type="submit" value="ajouter cette éléves">
+</form>
+</body>
+</html>
